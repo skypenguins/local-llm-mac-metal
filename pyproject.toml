@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "local-llm"
+version = "0.1.0"
+description = ""
+authors = ["skypenguins <monomeg.lab@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+llama-cpp-python = "^0.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
